@@ -1,3 +1,4 @@
+new_arr = ["hey", "heyo", "hodo"]
 def my_each(array)
   i = 0
   while i < array.length
@@ -5,3 +6,4 @@ def my_each(array)
     i += 1
   end
 end
+my_each(new_arr) {|i| 
